@@ -2,4 +2,7 @@ console.log('Welcome');
 
 
 
-console.log('Latest');
+if(true)
+{
+    console.log('Latest');
+}
