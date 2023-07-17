@@ -1,8 +1,4 @@
 console.log('Welcome');
-
-
-
-if(true)
-{
-    console.log('Latest');
-}
+console.log('Latest');
+console.log('Latest');
+console.log('Latest');
