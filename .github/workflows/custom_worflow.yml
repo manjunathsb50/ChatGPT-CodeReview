@@ -7,6 +7,8 @@ on:
     types: [opened, edited,closed,reopened,review_requested,ready_for_review,assigned,labeled]
   pull_request_review_comment:
     types: [created, deleted]
+  issue_comment:
+   types: [created, edited]
 
 jobs:
   code-review:
