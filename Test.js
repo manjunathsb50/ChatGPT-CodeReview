@@ -4,6 +4,8 @@ console.log("Welcome");
 console.log("testcd");
  let num1=5;
 let num2=10
+ let num91=5;
+let num27=10
 
 var res=num1+num2
 
