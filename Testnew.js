@@ -1,5 +1,7 @@
-console.log('Welcome');
-console.log('Latest3');
-console.log('Latest3');
-console.log('Latest4');
-console.log('Latest5');
+ 
+console.log('Latest');
+console.log('Latest');
+console.log('Latest1');
+let someveriable=10;
+var someotherveriable=10;
+ 
