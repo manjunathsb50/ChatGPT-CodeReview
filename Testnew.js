@@ -9,3 +9,7 @@ if(1==2)
 {
  console.log('some response');
 }
+else{
+
+  console.log('else response');
+}
