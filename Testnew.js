@@ -2,8 +2,16 @@ let temp;
 var _temp;
 let num=5;
 spiralMatrix(num);
+const radius = 10;
+const pi = Math.PI;
+const areaOfCircle = (radius, pi) => {
+   return pi * radius * radius;
+};
+console.log("The area of the circle is: " + areaOfCircle(radius, pi));
 
+console.log("");
 function spiralMatrix(n) {
+    console.log("");
     const arr = Array.from({ length: n }, () => []);
     let row = 0;
     let col = 0;
@@ -25,7 +33,7 @@ function spiralMatrix(n) {
             counter++;
         }
         colEnd--;
-
+console.log("");
         // end row
         for (let i = colEnd; i >= col; i--) {
             arr[rowEnd][i] = counter;
