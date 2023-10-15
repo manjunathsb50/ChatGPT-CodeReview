@@ -12,8 +12,8 @@ jobs:
   code-review:
     runs-on: ubuntu-latest
     steps:
-    - name: OpenAI ChatGPT Code Review
-      uses: adshao/chatgpt-code-review-action@v0.2.5
+    - name: ChatGPT OpenAI CodeReview
+      uses: manjunathsb50/chatgpt-code-review-action@v1.0.2
       with:
         PROGRAMMING_LANGUAGE: 'JavaScript'
         OPENAI_TOKEN: ${{ secrets.OPENAI_API_KEY }}
